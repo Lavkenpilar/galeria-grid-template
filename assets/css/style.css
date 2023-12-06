@@ -1,0 +1,35 @@
+.bg {
+    background-position: center;
+    background-size: cover;
+}
+.imagen1 {
+    grid-area: a;
+        
+}
+.imagen2 {
+    grid-area: b;
+   
+}
+.imagen3 {
+    grid-area: c;
+   
+    
+}
+.imagen4 {
+    grid-area: d;
+    
+}
+.tamaño {
+    height: 100em;
+    width: 200em;
+}
+.gallery {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'd d d d'
+    'a a b b'
+    'a a b b'
+    'c c c c';
+}
